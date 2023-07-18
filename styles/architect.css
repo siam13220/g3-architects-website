@@ -1,3 +1,4 @@
+/* work sans from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@300;400;700&family=Open+Sans:wght@400;700;800&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
 * {
@@ -6,4 +7,46 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Space Mono", monospace;
   font-family: "Work Sans", sans-serif;
+}
+/* header styles */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+/* banner styles */
+.banner-content {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: #727272;
 }
